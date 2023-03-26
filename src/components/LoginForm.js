@@ -29,6 +29,7 @@ export default function LoginForm({setIsLoggedin})
            e.preventDefault();
            setIsLoggedin(true);
            toast.success("logged in");
+           
            nav("/dashboard");
     }
     return (

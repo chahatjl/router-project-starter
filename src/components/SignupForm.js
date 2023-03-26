@@ -51,6 +51,7 @@ export default function SignupForm({setIsLoggedin}) {
         
         console.log(finalData);
         
+        
         nav("/dashboard");
     }
 
